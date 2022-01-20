@@ -16,3 +16,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/hello', function () {
+  $message = "This is an alert message from the routes";
+  return view('hello',compact('message'));
+});
