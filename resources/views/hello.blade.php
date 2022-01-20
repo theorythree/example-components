@@ -8,6 +8,8 @@
   <title>Document</title>
 </head>
 <body>
-  <x-alert type="success" :message="$message" />
+  
+  <x-alert type="dan" :message="$message" />
+
 </body>
 </html>
