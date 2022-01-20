@@ -8,10 +8,6 @@
   <title>Document</title>
 </head>
 <body>
-  <div class="p-6">
-    <h1 class="text-3xl font-bold underline">
-      Hello World!
-    </h1>
-</div>
+  <x-alert type="success" :message="$message" />
 </body>
 </html>

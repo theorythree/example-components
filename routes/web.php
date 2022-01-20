@@ -18,5 +18,6 @@ Route::get('/', function () {
 });
 
 Route::get('/hello', function () {
-  return view('hello');
+  $message = "This is an alert message from the routes";
+  return view('hello',compact('message'));
 });
